@@ -1,17 +1,22 @@
 import React from 'react'
+import { FaUser } from 'react-icons/fa'
+import { HiSun } from 'react-icons/hi'
+import { RiSettings3Fill } from 'react-icons/ri'
 
 const Navbar = () => {
   return (
-    <div>
-        <div className='h-30 bg-gray-800 text-white flex items-center px-8'>
-            <ul className='flex-row space-x-4 '>
-                <li>Home</li>
-                <li>About</li>
-                <li>Contact</li>
-            </ul>
-
+    <>
+      <div className="nav flex items-center justify-between px-[100px] h-[90px] border-b-[1px] border-gray-800">
+        <div className="logo">
+         <h3 className='text-[25px] font-bold sp-text'>GenUI</h3>
         </div>
-    </div>
+        <div className="icons flex items-center gap-[15px]">
+          <div className="icon"><HiSun /></div>
+          <div className="icon"><FaUser /></div>
+          <div className="icon"><RiSettings3Fill /></div>
+        </div>
+      </div>
+    </>
   )
 }
 

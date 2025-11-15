@@ -1,5 +1,5 @@
 import React from 'react'
-import image.jpg from '../assets/image.jpg'
+import image.gpg from '../public/image.jpg'
 
 const Hero = () => {
   return (
