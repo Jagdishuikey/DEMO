@@ -21,6 +21,11 @@ const Home = () => {
         { value: 'html-bootstrap', label: 'HTML + Bootstrap' },
         { value: 'html-css-js', label: 'HTML + CSS + JS' },
         { value: 'html-tailwind-bootstrap', label: 'HTML + Tailwind + Bootstrap' },
+        { value: 'react-tailwind', label: 'React.js + Tailwind CSS' },
+        { value: 'react-bootstrap', label: 'React.js + Bootstrap' },
+        { value: 'nextjs-tailwind', label: 'Next.js + Tailwind CSS' },
+        { value: 'vuejs-tailwind', label: 'Vue.js + Tailwind CSS' },
+        { value: 'angular-material', label: 'Angular + Angular Material' },
     ];
 
     const [outputScreen, setOutputScreen] = useState(true);
