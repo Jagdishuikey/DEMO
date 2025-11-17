@@ -1,6 +1,6 @@
-# 🚀 **GenUI – AI-Powered Code & Component Generator**
+# 🚀 **UI Factory – AI-Powered Code & Component Generator**
 
-GenUI is a modern **AI-based code and UI component generator** that allows users to create complete, responsive components simply by describing them in plain English.
+UI Factory is a modern **AI-based code and UI component generator** that allows users to create complete, responsive components simply by describing them in plain English.
 Whether you're building **HTML**, **CSS**, **React**, **Tailwind**, **Bootstrap**, or full UI layouts — GenUI instantly generates clean, production-ready code with live preview.
 
 ---
